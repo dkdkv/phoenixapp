@@ -2,7 +2,7 @@ import Config
 
 # Configure your database
 config :phoenixapp, Phoenixapp.Repo,
-  username: System.get_env("POSTGRES_USER")
+  username: System.get_env("POSTGRES_USER"),
   password: System.get_env("POSTGRES_PASSWORD"),
   hostname: System.get_env("POSTGRES_HOST"),
   database: System.get_env("POSTGRES_DB"),
